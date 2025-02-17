@@ -193,7 +193,7 @@ for page in range(1, pages+1):
             #saving visited profile
             with open('LinkedInConnectBot-main/visited.txt', 'a') as f:
                 f.write(str(visiting)+" ")
-            f.close()
+            f.close() #fuck memory this is python
             
         except:
             print("Unable to connect with profile: " + name)
